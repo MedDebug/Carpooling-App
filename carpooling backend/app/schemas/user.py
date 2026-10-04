@@ -10,3 +10,8 @@ class UserCreate(BaseModel):
     degree: str
     division: str
     year: int
+
+
+class UserLogin(BaseModel):
+    college_email: str
+    password: str
